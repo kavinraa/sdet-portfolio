@@ -1,0 +1,40 @@
+# part 1 : variables and data types
+
+name = "Kavin"
+age = 28
+is_employed = True
+salary = 100357.50
+
+# print((type(name)))
+# print((type(age)))
+# print((type(is_employed)))
+# print((type(salary)))
+
+# greeting = f"Hello, my name is {name} and I am {age} years old."
+# print(greeting)
+
+# employment_status = f"I am currently {'employed' if is_employed else 'not employed'}."
+# print(employment_status)
+
+# print(f"My salary is ${salary:,.2f}")
+
+
+# part 2 : if/else comparisons 
+# score = 80
+# if score >= 90:
+# 	print("Pass - excellent")
+# elif score >= 70:
+# 	print("Pass - acceptable")
+# else:
+# 	print("Fail")
+
+# status = "pass" if score >= 70 else "fail"
+# print(f"test status: {status}")
+
+# part 3 : for loops
+test_names = ["login_test", "logout_test", "signup_test", "payment_test"]
+for test in test_names:
+    print(f"running : {test}")
+
+for i, test in enumerate(test_names):
+    print(f"Test {i + 1}: {test} ")
