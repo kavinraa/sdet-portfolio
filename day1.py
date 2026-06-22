@@ -44,4 +44,21 @@ results = [True, True, False, True]
 passed = [t for t,r in zip(test_names, results) if r]
 print(f"passed tests : {passed}")
 # ---------------------------------------------------------------------------------------------
+# part 4 : functions
+def greet(name):
+    return (f"Hello, {name}!")
+ 
+def add(a,b):
+    return a + b
+
+def is_valid_email(email):
+    return "@" in email and "." in email.split("@")[-1]
+
+
+print(greet("Kavin"))
+print(add(5,10))
+print(is_valid_email("test@.yopmail"))
+print(is_valid_email("notanemail"))      
+
+# ---------------------------------------------------------------------------------------------
 
