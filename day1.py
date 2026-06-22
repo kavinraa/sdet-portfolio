@@ -54,6 +54,22 @@ def add(a,b):
 def is_valid_email(email):
     return "@" in email and "." in email.split("@")[-1]
 
+def is_valid_email(email):
+    #   there must be exactly 1 "@" symbol
+    if email.count("@") != 1:
+        return False
+    
+    #  split into username and domain 
+    username, domain = email.split("@")
+
+    #  neither username nor domain can be empty
+    if not username or not domain :
+         return False
+    
+    #  domain must contain a dot and it can't be at the start or end
+    if "." not in domain or domain.startswith(".") or domain.endswith("."):
+        return False
+
 
 print(greet("Kavin"))
 print(add(5,10))
