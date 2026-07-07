@@ -78,3 +78,62 @@ print(is_valid_email("notanemail"))
 
 # ---------------------------------------------------------------------------------------------
 
+def factorial(n):
+    result = 1
+    for i in range(1, n+1):
+        result *= i
+    return result
+
+print (factorial(4))    
+print (factorial(0))    
+
+# ---------------------------------------------------------------------------------------------
+
+def palindrome(s):
+    s = s.lower().replace(" ", "")
+    return s == s[::-1]
+
+print(palindrome("racecar"))
+
+# ---------------------------------------------------------------------------------------------
+def fizzbuzz(n):
+    output = []
+    for i in range(1, n+1):
+        if i % 15 == 0:
+            output.append(("fizzbuzz"))
+        elif i % 3 == 0:
+            output.append(("fizz"))
+        elif i % 5 == 0:
+            output.append(("buzz"))
+        else:
+            output.append((i))
+    return output
+
+print(fizzbuzz(20))
+
+# ---------------------------------------------------------------------------------------------
+
+def flatten(nested):
+    result = []
+    for item in nested :
+        if isinstance(item, list):
+            result.extend(flatten(item))
+        else:
+            result.append(item)
+    return result
+
+print(flatten([1, [2, 3], [4, [5, 6]]]))
+
+# ---------------------------------------------------------------------------------------------
+
+def word_count(text):
+    words = text.lower().split()
+    counts = {}
+    for word in words:
+        counts[word] = counts.get(word, 0) + 1
+    return counts
+
+# ---------------------------------------------------------------------------------------------
+
+
+
