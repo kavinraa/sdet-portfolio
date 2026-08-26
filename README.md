@@ -1,6 +1,6 @@
 Hi, I'm Kavin!
 SDET / QA Engineer with 6 years of experience building test automation and quality strategy for fintech and cloud platforms. Currently focused on Python + Playwright automation, API testing, and data-integrity validation for payment systems.
-Open to SDET roles — Chennai / Bangalore / Hyderabad | [LinkedIn](https://www.linkedin.com/in/kavin-raj-antony-53574b156/) | [Email](mailto:kavinraj.antony@example.com)
+Open to SDET roles — Chennai / Bangalore / Hyderabad | [LinkedIn](https://www.linkedin.com/in/kavin-raj-antony-53574b156/) | [Email](mailto:kavinraj.antony@gmail.com)
 ________________________________________
 About me
 
@@ -38,4 +38,4 @@ ________________________________________
 •	Judgment, not just execution — a lot of the mechanical test-writing is AI-assisted these days; the skill I'm building is catching what automation gets wrong and deciding what's actually safe to ship.
 ________________________________________
 📫 Let's connect
-I'm actively interviewing for SDET roles. If you're hiring or know a team that is, I'd love to talk — reach out on [LinkedIn](https://www.linkedin.com/in/kavin-raj-antony-53574b156/) or [Email](mailto:kavinraj.antony@example.com)
+I'm actively interviewing for SDET roles. If you're hiring or know a team that is, I'd love to talk — reach out on [LinkedIn](https://www.linkedin.com/in/kavin-raj-antony-53574b156/) or [Email](mailto:kavinraj.antony@gmail.com)
