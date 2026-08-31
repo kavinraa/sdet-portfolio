@@ -77,7 +77,7 @@ print(is_valid_email("test@.yopmail"))
 print(is_valid_email("notanemail"))      
 
 # ---------------------------------------------------------------------------------------------
-
+# part 5 : excercises
 def factorial(n):
     result = 1
     for i in range(1, n+1):
@@ -135,5 +135,20 @@ def word_count(text):
 
 # ---------------------------------------------------------------------------------------------
 
+name = "Kavin"
+age = 28
+greeting = f"Hello, my name is {name} and I'm {age} years old"
 
+score = 85
+status = "pass" if score >= 80 else "fail"
 
+test_names = ["login", "logout", "signup"]
+for i, test in enumerate(test_names):
+    print(f"Test {i+1} : {test}")
+
+def is_valid_email(email):
+    return  "@" in email and "." in email.split("@")[-1]
+
+print(greeting)
+print(status)
+print(is_valid_email)    
