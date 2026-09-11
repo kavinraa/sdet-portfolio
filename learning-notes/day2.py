@@ -21,4 +21,3 @@ print(f"average score : {sum(scores)/len(scores):.1f}")
 
 passed =[s for s in scores if s >= 80]
 print(f"Passed scores : {passed}")
-
