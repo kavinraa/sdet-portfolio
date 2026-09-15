@@ -33,3 +33,8 @@ class Timer:
 with Timer():
     time.sleep(1)
     print("[Doing work...]")
+
+
+
+def test_scores_del(scores):
+    assert len(scores) > 1
