@@ -45,4 +45,4 @@ cur.execute("""select  outer_emp.name, outer_emp.department, outer_emp.salary
 )
 """)
 
-print("highest salary per department :", cur.fetchall())
+print("highest salary per department  :", cur.fetchall())
