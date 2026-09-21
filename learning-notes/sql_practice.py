@@ -29,7 +29,7 @@ print("database ready")
 cur.execute("""   
     select distinct salary from employees
     order by salary desc
-    limit -1
+    limit 1
     offset 1
 """)
 
