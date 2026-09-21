@@ -29,7 +29,7 @@ print("database ready")
 cur.execute("""   
     select distinct salary from employees
     order by salary desc
-    limit -1
+    limit 1
     offset 1
 """)
 
@@ -45,4 +45,4 @@ cur.execute("""select  outer_emp.name, outer_emp.department, outer_emp.salary
 )
 """)
 
-print("highest salary per department :", cur.fetchall())
+print("highest salary per department:", cur.fetchall())
