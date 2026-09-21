@@ -1,0 +1,17 @@
+services:
+  tests: 
+    build: .
+    command: ["pytest", "-v", "--collect-only"] 
+    depends_on:
+      - mockdb
+    environment:
+      - DB_HOST=mockdb
+  
+  mockdb:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_PASSWORD: testpass
+      POSTGRES_DB: testdb
+    ports:
+      - "5432:5432"
+  
