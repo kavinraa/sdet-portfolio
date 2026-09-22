@@ -16,7 +16,10 @@ class APIClient:
         return response
     
 
-client = APIClient("https://reqres.in/api")
-result = client.create_user({"name" : "Morpheus" , "job" : "leader"})
-print(result.json())
-print(result.status_code)
+# client = APIClient("https://reqres.in/api")
+# result = client.create_user({"name" : "Morpheus" , "job" : "leader"})
+# print(result.json())
+# print(result.status_code)
+
+# result = client.get_user(2)
+# print(result.json()["data"]["id"])
