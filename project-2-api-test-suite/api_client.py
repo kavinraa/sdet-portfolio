@@ -14,7 +14,18 @@ class APIClient:
         url = f"{self.base_url}/users"
         response = requests.post(url, json = user_data)
         return response
-    
+
+    def update_user(self, user_id , user_data):
+        url = f"{self.base_url}/users/{user_id}"
+        response = requests.put(url, json = user_data)
+        return response
+
+    def delete_user(self, user_id):
+        url = f"{self.base_url}/users/{user_id}"
+        response = requests.delete(url)
+        return response
+
+
 
 # client = APIClient("https://reqres.in/api")
 # result = client.create_user({"name" : "Morpheus" , "job" : "leader"})
